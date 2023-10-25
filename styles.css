@@ -1,0 +1,107 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #a167e4f8;
+    color: #080808;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    max-width: 100px;
+    margin-left: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #222222;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url('jumbotron-background.jpg');
+    background-size: cover;
+    text-align: center;
+    color: #0c0505;
+    padding: 100px 0;
+}
+
+.jumbotron h1 {
+    font-size: 36px;
+}
+
+.jumbotron p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.jumbotron form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.jumbotron input[type="email"] {
+    padding: 10px;
+    width: 250px;
+}
+
+.jumbotron button {
+    background-color: #330a3d;
+    color: #e3e9fc;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Blog */
+#blog {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+#blog article {
+    width: 30%;
+    text-align: center;
+}
+
+#blog img {
+    max-width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: #a167e4f8;
+    color: #2b2727;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contacto, #redes-sociales {
+    text-align: center;
+}
+
+#contacto p, #redes-sociales a {
+    color: #35099b;
+    text-decoration: none;
+}
